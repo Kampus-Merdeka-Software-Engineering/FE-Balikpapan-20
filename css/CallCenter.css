@@ -1,0 +1,227 @@
+/* Global Reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #8FCACA;
+    padding: 6px 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+/* Menu Styling */
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+/* Judul Styling */
+.judul {
+    text-align: center;
+    padding: 0%;
+    background-image: linear-gradient(to bottom , #8bc6c6, #ffff);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Content Navigation Styling */
+.content_nav {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.box-sizing1 {
+    background-image: linear-gradient(#8fcaca , #ffff);
+    width: 35%;
+    height: 15%;
+    border-radius: 15px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 50px; 
+    z-index: 1;
+}
+
+/* Call Styling */
+.call {
+    display: block;
+    text-align: left;
+}
+
+.call hr {
+    height: 1px;
+    width: 300px;
+    border-width: 0;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.call p {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: black;
+}
+
+.call li {
+    font-size: 15px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.call a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.call img {
+    width: 70px; 
+    height: 70px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+    float: right; 
+}
+
+
+/* Layanan Styling */
+.contact {
+    float: left; 
+}
+
+.layanan {
+    list-style-type: none;
+    padding-top: 5%;
+    padding-left: 20px;
+}
+
+
+.layanan li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+.layanan img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+.stay-connected {
+    text-align: center; 
+    padding: 20px 0; 
+    font-size: 15px; 
+    margin-left: 50%;
+    font-weight: bold; 
+}
+
+/* Media Sosial Styling */
+.media-sosial {
+    list-style-type: none;
+    padding-top: 10px;
+    align-content: center;
+    margin-left: 150px;
+}
+
+.media-sosial li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.media-sosial img {
+    width: 30px; 
+    height: 30px; 
+    vertical-align: middle; 
+}
+
+
+
+/* Menu Bawah Styling */
+.menu-bawah {
+    width: 60%;
+    float: left;
+}
+
+/* Pilihan Styling */
+
+.pilihan {
+    list-style-type: none;
+}
+
+.pilihan a {
+    margin-left: 50px;
+    color: #000000;
+    text-decoration: none;
+    background-color: none;
+}
+
+.anak {
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.anak a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Responsif pada Layar Lebar */
+@media screen and (max-width: 768px) {
+    .box-sizing1 {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #8FCACA;
+    width: 100%; 
+    clear: both; 
+    padding: 15px 0; 
+}

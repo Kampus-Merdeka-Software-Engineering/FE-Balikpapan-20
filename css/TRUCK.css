@@ -1,0 +1,174 @@
+* {
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* Body Styling */
+body {
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Navbar Styling */
+.navbar {
+    width: 1060px;
+    height: 60px;
+    background-color: #8FCACA;
+    padding: 6px 50px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+/* Menu Styling */
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+/* Judul Styling */
+.judul {
+    text-align: center;
+    padding: 0%;
+    background-image: linear-gradient(to bottom , #8bc6c6, #ffff);
+    font-size: 15px;
+    font-weight: 400;
+}
+/* content */
+
+.content_nav {
+    width: 100%;
+    height: 670px;
+    background-color: #FFff;
+}
+
+.content_nav h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    background-image: linear-gradient(to bottom, #8bc6c6, #FFff);
+    font-size: 25px;
+    font-weight: 400px;
+    color: #000;
+}
+
+.transport {
+    display: block;
+    text-align: left;
+}
+
+.transport hr {
+    height: 1px;
+    width: auto;
+    border-width: 0;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.transport p {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    padding: 20px;
+}
+
+.transport li {
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.transport img {
+    width: 60px;
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.transport1 {
+    display: block;
+}
+
+.transport1 img {
+    float: left;
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 25%;
+}
+
+/* Menu bawah Styling */
+.menu-bawah {
+    width: 60%;
+    float: left;
+}
+
+/* Pilihan Styling */
+
+.pilihan {
+    list-style-type: none;
+}
+
+.pilihan a {
+    margin-left: 50px;
+    color: #000000;
+    text-decoration: none;
+    background-color: none;
+}
+
+.anak {
+    text-decoration: none;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.anak a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.box-sizing1 {
+    background-image: linear-gradient(to bottom, #8bc6c6, #FFff);
+    width: 35%;
+    height: 35%;
+    float: right;
+    margin-right: 40px;
+}
+
+.content-box {
+    padding: 10px;
+}
+
+.content_nav>h1 {
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #8FCACA;
+    width: 100%; 
+    clear: both; 
+    padding: 15px 0; 
+}
