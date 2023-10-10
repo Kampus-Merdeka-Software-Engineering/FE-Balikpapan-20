@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://kind-tan-spider-slip.cyclic.app/";
+const API_BASE_URL = "https://kind-tan-spider-slip.cyclic.app";
 
 async function fetchMessages() {
   try {
