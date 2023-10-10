@@ -42,9 +42,8 @@
                     <form id="lacakForm">
                         <label for="lacak kiriman"></label>
                         <input type="text" id="nomor-resi" placeholder="Masukkan Nomor Resi">
-                        <button class="btn click" name="tracking" type="submit"> TRACKING </button>
+                        <button class="btn click" name="tracking" type="button" onclick="lacak()"> TRACKING </button>
                     </form>
-                    <script src="./javascript/halamanberanda.js"></script>
                 </div>
                 <p> Then Click "TRACKING" Available up to 20 Airwaybill</p>
             </div>
@@ -76,7 +75,7 @@
                             </div>
                             <p>Weight(kg)</p>
                         </div>
-                        <button class="btn check" name="check-tarif"> CHECK </button>
+                        <button id="button-tarif" onclick="checkTarif()" class="btn check" name="check-tarif"> CHECK </button>
                     </div>
                 </from>
             </div>

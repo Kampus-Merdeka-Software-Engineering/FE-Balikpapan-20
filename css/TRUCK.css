@@ -13,7 +13,7 @@ body {
 
 /* Navbar Styling */
 .navbar {
-    width: 1060px;
+    width: auto;
     height: 60px;
     background-color: #8FCACA;
     padding: 6px 50px;
