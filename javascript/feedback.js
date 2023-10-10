@@ -19,7 +19,7 @@ async function fetchMessages() {
 async function sendMessage() {
   const nama = document.getElementById("input-nama").value;
   const email = document.getElementById("input-email").value;
-  const massage = document.getElementById("input-massage").value;
+  const message = document.getElementById("input-massage").value;
 
   try {
     const sendMessage = await fetch(`${API_BASE_URL}/messages`, {
@@ -27,7 +27,7 @@ async function sendMessage() {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ name, message })
+    body: JSON.stringify({ nama, email, message })
   })
   const response = await sendMessage.json();
 
