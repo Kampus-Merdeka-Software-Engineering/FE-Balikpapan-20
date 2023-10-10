@@ -6,12 +6,10 @@ async function lacak() {
   try {
     const response = await fetch(`${API_BASE_URL}/lacak`)
     const data = await response.json();
-    console.log(data)
 
     // Menampilkan hasil pelacakan di div output-box2
     const outputBox2 = document.getElementById("output-box1");
     if (!Array.isArray(data)) {
-      console.log("masuk")
       outputBox2.innerHTML = 
      "<h3>barang tidak di temukan</h3>"
       return;
@@ -49,7 +47,6 @@ async function checkTarif() {
   try {
     const response = await fetch(`${API_BASE_URL}/tarif?origin=${origin}&destination=${destination}&weight=${weight}`)
     const data = await response.json();
-    console.log(data)
 
     // Menampilkan hasil pelacakan di div output-box2
     const outputBox2 = document.getElementById("output-box2");
